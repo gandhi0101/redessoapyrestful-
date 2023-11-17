@@ -1,0 +1,22 @@
+<!DOCTYPE web-app PUBLIC
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+    <web-app>
+        <display-name>JAXRS-Example</display-name>
+
+        <servlet>
+            <servlet-name>Jersey REST Service</servlet-name>
+            <servlet-class>Jersey REST Service</servlet-class>
+            <init-param>
+                <param-name>sun jersey config property packages</com></param-name>
+                <param-value>org.undercloud</param-value>
+            </init-param>
+            <load-on-startup>1</load-on-startup>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>Jersey REST Service</servlet-name>
+            <url-pattern>/*</url-pattern>
+        </servlet-mapping>
+    </web-app>
+
+<

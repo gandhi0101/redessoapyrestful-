@@ -1,3 +1,4 @@
+
 public static void main(String[] args) throws MalformedURLException{
     URL wsdlURL= new URL("http://localhost:8888/ws/person?wsdl");
 
